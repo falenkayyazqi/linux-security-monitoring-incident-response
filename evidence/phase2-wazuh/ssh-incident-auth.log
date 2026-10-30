@@ -1,0 +1,19 @@
+2026-10-11T13:41:03.981890+07:00 Falen-Vmware sshd-session[7421]: Received disconnect from 192.168.82.130 port 57274:11: Bye Bye [preauth]
+2026-10-11T13:41:03.982939+07:00 Falen-Vmware sshd-session[7421]: Disconnected from authenticating user user 192.168.82.130 port 57274 [preauth]
+2026-10-11T13:41:04.282422+07:00 Falen-Vmware sshd-session[7423]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.82.130  user=user
+2026-10-11T13:41:04.291710+07:00 Falen-Vmware sshd-session[7424]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.82.130  user=user
+2026-10-11T13:41:04.292887+07:00 Falen-Vmware sshd-session[7425]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.82.130  user=user
+2026-10-11T13:41:04.301847+07:00 Falen-Vmware sshd-session[7427]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.82.130  user=user
+2026-10-11T13:41:06.030666+07:00 Falen-Vmware sshd-session[7427]: Failed password for user from 192.168.82.130 port 57320 ssh2
+2026-10-11T13:41:06.395345+07:00 Falen-Vmware sshd-session[7424]: Failed password for user from 192.168.82.130 port 57282 ssh2
+2026-10-11T13:41:06.400792+07:00 Falen-Vmware sshd-session[7425]: Failed password for user from 192.168.82.130 port 57312 ssh2
+2026-10-11T13:41:06.530677+07:00 Falen-Vmware sshd-session[7423]: Failed password for user from 192.168.82.130 port 57296 ssh2
+2026-10-11T13:41:08.298712+07:00 Falen-Vmware sshd-session[7427]: Failed password for user from 192.168.82.130 port 57320 ssh2
+2026-10-11T13:41:08.448253+07:00 Falen-Vmware sshd-session[7424]: Failed password for user from 192.168.82.130 port 57282 ssh2
+2026-10-11T13:41:08.557651+07:00 Falen-Vmware sshd-session[7423]: Failed password for user from 192.168.82.130 port 57296 ssh2
+2026-10-11T13:41:08.658193+07:00 Falen-Vmware sshd-session[7425]: Failed password for user from 192.168.82.130 port 57312 ssh2
+2026-10-11T13:43:04.696974+07:00 Falen-Vmware sshd[7365]: Timeout before authentication for connection from 192.168.82.130 to 192.168.82.129, pid = 7427
+2026-10-11T13:43:05.727558+07:00 Falen-Vmware sshd[7365]: Timeout before authentication for connection from 192.168.82.130 to 192.168.82.129, pid = 7423
+2026-10-11T13:43:05.962986+07:00 Falen-Vmware sshd[7365]: Timeout before authentication for connection from 192.168.82.130 to 192.168.82.129, pid = 7424
+2026-10-11T13:43:07.807798+07:00 Falen-Vmware sshd[7365]: Timeout before authentication for connection from 192.168.82.130 to 192.168.82.129, pid = 7425
+2026-10-11T13:44:26.327166+07:00 Falen-Vmware sshd-session[7500]: Connection closed by 192.168.82.130 port 46834

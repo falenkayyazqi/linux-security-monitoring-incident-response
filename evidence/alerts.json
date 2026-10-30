@@ -1,0 +1,109 @@
+{
+  "analysis_window": {
+    "since": "2026-09-25T17:59:00+07:00",
+    "until": "2026-09-25T18:04:30+07:00"
+  },
+  "detection_configuration": {
+    "threshold": 5,
+    "window_minutes": 5,
+    "tracking_key": "source_ip + username"
+  },
+  "summary": {
+    "failed_logins": 10,
+    "accepted_logins": 1,
+    "sudo_commands": 0,
+    "alerts_raised": 1
+  },
+  "alerts": [
+    {
+      "type": "BRUTE-FORCE ATTEMPT",
+      "timestamp": "2026-09-25T18:01:56.577144+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "test",
+      "failed_count_in_window": 5,
+      "window_minutes": 5
+    }
+  ],
+  "failed_logins": [
+    {
+      "timestamp": "2026-09-25T17:59:04.759749+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "admin",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    },
+    {
+      "timestamp": "2026-09-25T17:59:14.499064+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "admin",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    },
+    {
+      "timestamp": "2026-09-25T17:59:38.005646+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "root",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    },
+    {
+      "timestamp": "2026-09-25T17:59:43.407955+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "root",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    },
+    {
+      "timestamp": "2026-09-25T18:00:02.686331+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "test",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    },
+    {
+      "timestamp": "2026-09-25T18:00:07.840047+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "test",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    },
+    {
+      "timestamp": "2026-09-25T18:01:43.755736+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "test",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    },
+    {
+      "timestamp": "2026-09-25T18:01:47.983325+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "test",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    },
+    {
+      "timestamp": "2026-09-25T18:01:56.577144+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "test",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    },
+    {
+      "timestamp": "2026-09-25T18:02:01.239301+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "test",
+      "authentication_result": "failed",
+      "authentication_method": "password"
+    }
+  ],
+  "accepted_logins": [
+    {
+      "timestamp": "2026-09-25T18:03:40.517190+07:00",
+      "source_ip": "192.168.82.130",
+      "username": "user",
+      "authentication_result": "success",
+      "authentication_method": "publickey"
+    }
+  ],
+  "sudo_events": []
+}

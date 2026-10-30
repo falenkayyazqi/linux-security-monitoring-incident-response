@@ -1,0 +1,15 @@
+SSH
+active
+
+WAZUH AGENT
+active
+
+PASSWORD AUTHENTICATION
+PasswordAuthentication no
+
+MAXAUTHTRIES & PERSOURCEPENALTIES
+maxauthtries 3
+persourcepenalties crash:90 authfail:5 noauth:1 grace-exceeded:10 refuseconnection:10 max:600 min:15 max-sources4:65536 max-sources6:65536 overflow:permissive overflow6:permissive
+
+ACTIVE RESPONSE BLOCK
+No active block

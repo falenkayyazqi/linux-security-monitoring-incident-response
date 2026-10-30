@@ -1,0 +1,11 @@
+=== Log Monitor Summary ===
+Analysis window        : 2026-09-25T17:59:00+07:00 to 2026-09-25T18:04:30+07:00
+Failed logins observed   : 10
+Accepted logins observed : 1
+Sudo commands observed   : 0
+Alerts raised            : 1
+
+=== Alerts ===
+[2026-09-25T18:01:56.577144+07:00] BRUTE-FORCE ATTEMPT from 192.168.82.130 targeting user 'test' (5 failures in 5 min)
+
+Results written to: /home/user/project3-final/evidence/alerts.json

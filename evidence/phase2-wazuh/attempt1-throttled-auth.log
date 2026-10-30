@@ -1,0 +1,6 @@
+2026-10-11T13:03:43.722552+07:00 Falen-Vmware sshd-session[6474]: Failed password for user from 192.168.82.130 port 43516 ssh2
+2026-10-11T13:07:48.320247+07:00 Falen-Vmware sudo: user : TTY=/dev/pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/grep Failed password for user from 192.168.82.130 /var/log/auth.log
+2026-10-11T13:10:16.060513+07:00 Falen-Vmware sudo: user : TTY=/dev/pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/grep Failed password for user from 192.168.82.130 /var/log/auth.log
+2026-10-11T13:16:00.465845+07:00 Falen-Vmware sudo: user : TTY=/dev/pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/grep -c Failed password for user from 192.168.82.130 /var/log/auth.log
+2026-10-11T13:33:57.154132+07:00 Falen-Vmware sudo: user : TTY=/dev/pts/0 ; PWD=/home/user/project3-final/evidence/phase2-wazuh ; USER=root ; COMMAND=/usr/bin/grep -i -E Failed password for user from 192.168.82.130|penalt|drop connection
+2026-10-11T13:34:26.089686+07:00 Falen-Vmware sudo: user : TTY=/dev/pts/0 ; PWD=/home/user/project3-final/evidence/phase2-wazuh ; USER=root ; COMMAND=/usr/bin/grep -i -E Failed password for user from 192.168.82.130|penalt|drop connection /var/log/auth.log
