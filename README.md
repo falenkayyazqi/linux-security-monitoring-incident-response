@@ -1,4 +1,4 @@
-# Linux Security Monitoring / Mini SOC
+# Linux Security Monitoring & Incident Response
 
 A hands-on cybersecurity portfolio project covering host-based authentication monitoring, Python detection engineering, centralized SIEM monitoring with Wazuh, incident investigation, temporary containment, and recovery verification.
 
